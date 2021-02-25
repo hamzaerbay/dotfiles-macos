@@ -7,5 +7,8 @@ echo "\n<<< Starting Homebrew Setup >>>\n"
 brew install httpie
 brew install bat
 
-brew install google-chrome
-brew install visual-studio-code
+# --no-quarantine disable the gatekeeper
+# Disable/enable quarantining of downloads (default: enabled).
+brew install --no-quarantine google-chrome
+brew install --no-quarantine visual-studio-code
+# brew install --no-quarantine alfred
