@@ -14,6 +14,7 @@ export HOMEBREW_CASK_OPTS="--no-quarantine"
 # Create Aliases
 
 alias ls='ls -lAFh'
+alias exa='exa -laFh --git'
 alias docker-superuser="docker-compose run app sh -c 'python manage.py createsuperuser'"
 alias docker-makemig="docker-compose run app sh -c 'python manage.py makemigrations'"
 alias docker-mig="docker-compose run app sh -c 'python manage.py migrate'"
