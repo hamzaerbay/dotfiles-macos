@@ -6,6 +6,9 @@
 
 - link:
     ~/.zshrc: zshrc
+    ~/.config/bat:
+      create: true
+      path: config/bat
 
 - create:
     - ~/Code
