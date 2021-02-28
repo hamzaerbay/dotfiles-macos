@@ -10,6 +10,8 @@ brew "exa"
 brew "gh"
 # User-friendly cURL replacement (command-line HTTP client)
 brew "httpie"
+# Mac App Store command-line interface
+brew "mas"
 # Platform built on V8 to build network applications
 brew "node"
 # Internet file retriever
@@ -20,3 +22,9 @@ cask "firefox-developer-edition"
 cask "rectangle"
 # Open-source code editor
 cask "visual-studio-code"
+mas "GarageBand", id: 682658836
+mas "iMovie", id: 408981434
+mas "Keynote", id: 409183694
+mas "Numbers", id: 409203825
+mas "Pages", id: 409201541
+mas "Snappy", id: 512617038
