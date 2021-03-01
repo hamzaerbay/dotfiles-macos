@@ -1,4 +1,4 @@
-echo 'Hello from .zshenv'
+# Write Handy Functions
 
 function exists() {
   command -v $1 >/dev/null 2>&1

@@ -17,7 +17,11 @@ brew "node"
 # Internet file retriever
 brew "wget"
 # Web browser
+cask "firefox"
+# Web browser
 cask "firefox-developer-edition"
+# Web browser
+cask "google-chrome-canary"
 # Move and resize windows using keyboard shortcuts or snap areas
 cask "rectangle"
 # Open-source code editor
