@@ -6,3 +6,5 @@ Pull the repo under the `~/.dotfiles`
 ```
 ./install
 ```
+## Apps/Packages
+Check out the `Brewfile`
