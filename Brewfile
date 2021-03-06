@@ -24,6 +24,8 @@ cask "firefox-developer-edition"
 cask "google-chrome-canary"
 # Move and resize windows using keyboard shortcuts or snap areas
 cask "rectangle"
+# Music streaming service
+cask "spotify"
 # Open-source code editor
 cask "visual-studio-code"
 mas "GarageBand", id: 682658836
