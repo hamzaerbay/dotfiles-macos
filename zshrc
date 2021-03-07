@@ -15,9 +15,13 @@ export HOMEBREW_CASK_OPTS="--no-quarantine"
 
 alias ls='ls -lAFh'
 alias exa='exa -laFh --git'
+
+# Django aliases
 alias docker-superuser="docker-compose run app sh -c 'python manage.py createsuperuser'"
 alias docker-makemig="docker-compose run app sh -c 'python manage.py makemigrations'"
 alias docker-mig="docker-compose run app sh -c 'python manage.py migrate'"
+alias docker-black="docker-compose run app sh -c 'black .'"
+alias docker-dump="docker-compose run app sh -c 'python manage.py dumpdata > db.json'"
 docker-django-create-app() {
 	docker-compose run app sh -c "python manage.py startapp $1"
 }
