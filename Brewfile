@@ -22,6 +22,8 @@ cask "firefox"
 cask "firefox-developer-edition"
 # Web browser
 cask "google-chrome-canary"
+# Collaboration platform for API development
+cask "postman"
 # Move and resize windows using keyboard shortcuts or snap areas
 cask "rectangle"
 # Music streaming service
