@@ -15,7 +15,8 @@ export HOMEBREW_CASK_OPTS="--no-quarantine"
 
 alias ls='ls -lAFh'
 alias exa='exa -laFh --git'
-
+# alias kill-nm='find . -name 'node_modules' -type d -prune -exec rm -rf '{}' +'
+alias npkill='npx npkill'
 # Django aliases
 alias docker-superuser="docker-compose run app sh -c 'python manage.py createsuperuser'"
 alias docker-makemig="docker-compose run app sh -c 'python manage.py makemigrations'"
@@ -40,7 +41,6 @@ export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/b
 function mkcd() {
   mkdir -p "$@" && cd "$_"
 }
-
 # Use ZSH Plugins
 
 
