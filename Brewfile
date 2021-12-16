@@ -14,6 +14,8 @@ brew "httpie"
 brew "mas"
 # Platform built on V8 to build network applications
 brew "node"
+# 🚀 The Universal WebAssembly Runtime
+brew "wasmer"
 # Internet file retriever
 brew "wget"
 # Web browser
@@ -26,6 +28,8 @@ cask "google-chrome-canary"
 cask "postman"
 # Move and resize windows using keyboard shortcuts or snap areas
 cask "rectangle"
+# Video chat, voice call and instant messaging application
+cask "skype"
 # Music streaming service
 cask "spotify"
 # Open-source code editor

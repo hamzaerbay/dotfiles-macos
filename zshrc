@@ -27,6 +27,8 @@ docker-django-create-app() {
 	docker-compose run app sh -c "python manage.py startapp $1"
 }
 
+alias docker-next-build="docker build . -t my-next-js-app"
+alias docker-next-run="docker run -p 3000:3000 my-next-js-app"
 # Customize Prompt(s)
 
 PROMPT="%(?:%{$fg_bold[green]%}⚡️:%{$fg_bold[red]%}⚡️)"
