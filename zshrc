@@ -1,4 +1,5 @@
 export ZSH="/Users/hamzaerbay/.oh-my-zsh"
+zstyle ':omz:update' mode disabled
 
 ZSH_THEME="robbyrussell"
 
@@ -47,3 +48,7 @@ function mkcd() {
 
 
 # and Others
+if [ -z "$SSH_AUTH_SOCK" ] ; then
+  eval `ssh-agent -s`
+  ssh-add
+fi

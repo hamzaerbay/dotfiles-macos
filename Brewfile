@@ -1,9 +1,12 @@
+tap "getsentry/tools"
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/cask-versions"
 tap "homebrew/core"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
+# Tool for exploring each layer in a docker image
+brew "dive"
 # Modern replacement for 'ls'
 brew "exa"
 # GitHub command-line tool
@@ -14,10 +17,14 @@ brew "httpie"
 brew "mas"
 # Platform built on V8 to build network applications
 brew "node"
+# Rust toolchain installer
+brew "rustup-init"
 # 🚀 The Universal WebAssembly Runtime
 brew "wasmer"
 # Internet file retriever
 brew "wget"
+# Sentry command-line client for some generic tasks
+brew "getsentry/tools/sentry-cli"
 # Web browser
 cask "firefox"
 # Web browser
