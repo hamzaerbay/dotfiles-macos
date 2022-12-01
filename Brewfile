@@ -9,8 +9,12 @@ brew "bat"
 brew "dive"
 # Modern replacement for 'ls'
 brew "exa"
+# Efficient Duplicate File Finder
+brew "fclones"
 # GitHub command-line tool
 brew "gh"
+# Distributed revision control system
+brew "git"
 # User-friendly cURL replacement (command-line HTTP client)
 brew "httpie"
 # Mac App Store command-line interface
@@ -35,15 +39,13 @@ cask "google-chrome-canary"
 cask "postman"
 # Move and resize windows using keyboard shortcuts or snap areas
 cask "rectangle"
+# GUI for streamlined Redis application development
+cask "redisinsight"
 # Video chat, voice call and instant messaging application
 cask "skype"
 # Music streaming service
 cask "spotify"
 # Open-source code editor
 cask "visual-studio-code"
-mas "GarageBand", id: 682658836
-mas "iMovie", id: 408981434
-mas "Keynote", id: 409183694
-mas "Numbers", id: 409203825
-mas "Pages", id: 409201541
-mas "Snappy", id: 512617038
+# Rust-based terminal
+cask "warp"

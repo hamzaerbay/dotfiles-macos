@@ -52,3 +52,9 @@ if [ -z "$SSH_AUTH_SOCK" ] ; then
   eval `ssh-agent -s`
   ssh-add
 fi
+# bun completions
+[ -s "/Users/hamzaerbay/.bun/_bun" ] && source "/Users/hamzaerbay/.bun/_bun"
+
+# Bun
+export BUN_INSTALL="/Users/hamzaerbay/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
