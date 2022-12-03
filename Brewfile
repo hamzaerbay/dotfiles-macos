@@ -45,7 +45,13 @@ cask "redisinsight"
 cask "skype"
 # Music streaming service
 cask "spotify"
+# Git client focusing on power and productivity
+cask "tower"
 # Open-source code editor
 cask "visual-studio-code"
 # Rust-based terminal
 cask "warp"
+mas "Keynote", id: 409183694
+mas "MaCinema", id: 1180545184
+mas "Numbers", id: 409203825
+mas "Pages", id: 409201541
