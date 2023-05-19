@@ -3,7 +3,6 @@ zstyle ':omz:update' mode disabled
 
 ZSH_THEME="robbyrussell"
 
-
 plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
@@ -11,7 +10,10 @@ source $ZSH/oh-my-zsh.sh
 # Syntax highlighting for man pages using bat
 export MANPAGER="sh -c 'col -bx | bat -l man -p'"
 export HOMEBREW_CASK_OPTS="--no-quarantine"
-
+export NVM_DIR="$HOME/.nvm"
+export NVM_DIR="$HOME/.nvm"
+[ -s "/usr/local/opt/nvm/nvm.sh" ] && \. "/usr/local/opt/nvm/nvm.sh"  # This loads nvm
+[ -s "/usr/local/opt/nvm/etc/bash_completion.d/nvm" ] && \. "/usr/local/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
 # Create Aliases
 
 alias ls='ls -lAFh'

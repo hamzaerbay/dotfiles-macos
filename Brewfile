@@ -3,6 +3,7 @@ tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/cask-versions"
 tap "homebrew/core"
+tap "homebrew/services"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
 # Tool for exploring each layer in a docker image
@@ -15,14 +16,22 @@ brew "fclones"
 brew "gh"
 # Distributed revision control system
 brew "git"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.10"
 # User-friendly cURL replacement (command-line HTTP client)
 brew "httpie"
 # Mac App Store command-line interface
 brew "mas"
 # Platform built on V8 to build network applications
 brew "node"
+# Manage multiple Node.js versions
+brew "nvm"
+# 📦🚀 Fast, disk space efficient package manager
+brew "pnpm"
 # Rust toolchain installer
 brew "rustup-init"
+# Terminal multiplexer
+brew "tmux"
 # 🚀 The Universal WebAssembly Runtime
 brew "wasmer"
 # Internet file retriever
@@ -35,6 +44,8 @@ cask "firefox"
 cask "firefox-developer-edition"
 # Web browser
 cask "google-chrome-canary"
+# Web browser
+cask "microsoft-edge"
 # Collaboration platform for API development
 cask "postman"
 # Move and resize windows using keyboard shortcuts or snap areas
