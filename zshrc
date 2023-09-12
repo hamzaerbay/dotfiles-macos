@@ -17,7 +17,7 @@ export NVM_DIR="$HOME/.nvm"
 # Create Aliases
 
 alias ls='ls -lAFh'
-alias exa='exa -laFh --git'
+alias eza='eza -laFh --git'
 # alias kill-nm='find . -name 'node_modules' -type d -prune -exec rm -rf '{}' +'
 alias npkill='npx npkill'
 # Django aliases
