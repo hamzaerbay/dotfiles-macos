@@ -39,6 +39,8 @@ brew "wasmer"
 brew "wget"
 # Sentry command-line client for some generic tasks
 brew "getsentry/tools/sentry-cli"
+# Records audio from any application
+cask "audio-hijack"
 # Calendar for professionals and teams
 cask "cron"
 # Web browser
@@ -71,11 +73,6 @@ cask "tower"
 cask "visual-studio-code"
 # Rust-based terminal
 cask "warp"
-mas "Agenda", id: 1287445660
-mas "Keynote", id: 409183694
-mas "MaCinema", id: 1180545184
-mas "Numbers", id: 409203825
-mas "Pages", id: 409201541
 vscode "alexcvzz.vscode-sqlite"
 vscode "amazonwebservices.aws-toolkit-vscode"
 vscode "bradlc.vscode-tailwindcss"
@@ -86,6 +83,7 @@ vscode "eamodio.gitlens"
 vscode "EcksDy.env-switcher"
 vscode "esbenp.prettier-vscode"
 vscode "GitHub.copilot"
+vscode "GitHub.copilot-chat"
 vscode "GraphQL.vscode-graphql"
 vscode "GraphQL.vscode-graphql-syntax"
 vscode "mikestead.dotenv"
