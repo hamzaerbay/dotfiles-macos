@@ -21,6 +21,8 @@ brew "git"
 brew "httpie"
 # Mac App Store command-line interface
 brew "mas"
+# Fly through your shell history
+brew "mcfly"
 # Platform built on V8 to build network applications
 brew "node"
 # Manage multiple Node.js versions
@@ -41,8 +43,8 @@ brew "wget"
 brew "getsentry/tools/sentry-cli"
 # Records audio from any application
 cask "audio-hijack"
-# Calendar for professionals and teams
-cask "cron"
+# Write, edit, and chat about your code with AI
+cask "cursor"
 # Web browser
 cask "firefox"
 # Web browser
@@ -53,6 +55,8 @@ cask "google-chrome-canary"
 cask "imageoptim"
 # Web browser
 cask "microsoft-edge"
+# Online collaborative whiteboard platform
+cask "miro"
 # Interactive tool for analyzing MongoDB data
 cask "mongodb-compass"
 # App to write, plan, collaborate, and get organized
@@ -73,6 +77,11 @@ cask "tower"
 cask "visual-studio-code"
 # Rust-based terminal
 cask "warp"
+mas "Agenda", id: 1287445660
+mas "Keynote", id: 409183694
+mas "MaCinema", id: 1180545184
+mas "Numbers", id: 409203825
+mas "Pages", id: 409201541
 vscode "alexcvzz.vscode-sqlite"
 vscode "amazonwebservices.aws-toolkit-vscode"
 vscode "bradlc.vscode-tailwindcss"
@@ -84,6 +93,7 @@ vscode "EcksDy.env-switcher"
 vscode "esbenp.prettier-vscode"
 vscode "GitHub.copilot"
 vscode "GitHub.copilot-chat"
+vscode "googlecloudtools.cloudcode"
 vscode "GraphQL.vscode-graphql"
 vscode "GraphQL.vscode-graphql-syntax"
 vscode "mikestead.dotenv"

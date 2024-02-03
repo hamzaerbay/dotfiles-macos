@@ -41,7 +41,7 @@ nvm() {
 # Lazy NVM Finish
 
 # Create Aliases
-
+alias pn=pnpm
 alias ls='ls -lAFh'
 alias eza='eza -laFh --git'
 # alias kill-nm='find . -name 'node_modules' -type d -prune -exec rm -rf '{}' +'
@@ -68,7 +68,9 @@ alias docker-next-run="docker run -p 3000:3000 my-next-js-app"
 export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
 
 # Write Handy Functions
-
+function get-binary() {
+	echo -n "$@" | xxd -b
+}
 function mkcd() {
   mkdir -p "$@" && cd "$_"
 }
