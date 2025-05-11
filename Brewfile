@@ -30,7 +30,7 @@ brew "nvm"
 # Fast, disk space efficient package manager
 brew "pnpm"
 # Interpreted, interactive, object-oriented programming language
-brew "python@3.10"
+# brew "python@3.10"
 # Rust toolchain installer
 brew "rustup-init"
 # Terminal multiplexer
@@ -39,8 +39,6 @@ brew "tmux"
 brew "wasmer"
 # Internet file retriever
 brew "wget"
-# Sentry command-line client for some generic tasks
-brew "getsentry/tools/sentry-cli"
 # Records audio from any application
 cask "audio-hijack"
 # Write, edit, and chat about your code with AI
@@ -54,7 +52,7 @@ cask "google-chrome-canary"
 # Tool to optimize images to a smaller size
 cask "imageoptim"
 # Web browser
-cask "microsoft-edge"
+# cask "microsoft-edge"
 # Online collaborative whiteboard platform
 cask "miro"
 # Interactive tool for analyzing MongoDB data
@@ -68,7 +66,7 @@ cask "rectangle"
 # GUI for streamlined Redis application development
 cask "redisinsight"
 # Video chat, voice call and instant messaging application
-cask "skype"
+# cask "skype"
 # Music streaming service
 cask "spotify"
 # Git client focusing on power and productivity
