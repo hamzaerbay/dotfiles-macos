@@ -30,26 +30,26 @@ eval "$(starship init zsh)"
 # -------------------------
 # NVM (Node Version Manager) - Lazy Loading
 # -------------------------
-export NVM_DIR="$HOME/.nvm"
+# export NVM_DIR="$HOME/.nvm"
 
-load_nvm() {
-    if [[ ! -f $NVM_DIR/nvm.sh ]]; then
-        return 1
-    fi
-
-    source "$HOME/.nvm/nvm.sh"
-    source "/usr/local/opt/nvm/etc/bash_completion.d/nvm"
-
-    # Remove the stub function
-    unfunction load_nvm
-
-    # Check if the alias exists before trying to remove it
-    (( $+aliases[nvm] )) && unalias nvm
-}
-
-nvm() {
-    load_nvm && nvm "$@"
-}
+# load_nvm() {
+#     if [[ ! -f $NVM_DIR/nvm.sh ]]; then
+#         return 1
+#     fi
+#
+#     source "$HOME/.nvm/nvm.sh"
+#     source "/usr/local/opt/nvm/etc/bash_completion.d/nvm"
+#
+#     # Remove the stub function
+#     unfunction load_nvm
+#
+#     # Check if the alias exists before trying to remove it
+#     (( $+aliases[nvm] )) && unalias nvm
+# }
+#
+# nvm() {
+#     load_nvm && nvm "$@"
+# }
 
 # -------------------------
 # PNPM Configuration
@@ -65,6 +65,7 @@ esac
 # -------------------------
 
 # General aliases
+alias python=python3
 alias pn=pnpm
 alias ls='eza -lAh --git'
 alias npkill='npx npkill'
@@ -96,6 +97,9 @@ alias ghs='gh status'
 alias ghd='gh dash'
 alias gra='gh repo view --web'
 
+# Network 
+alias fixwifi="sudo ifconfig en0 down && sleep 3 && sudo ifconfig en0 up && sudo dscacheutil -flushcache && sudo killall -HUP mDNSResponder"
+
 # -------------------------
 # Functions
 # -------------------------
@@ -119,10 +123,11 @@ function get-binary() {
 # Commented Out / Unused 
 # -------------------------
 
-# Alternative NVM loading (not using lazy loading)
-# export NVM_DIR="$HOME/.nvm"
-# [ -s "/usr/local/opt/nvm/nvm.sh" ] && \. "/usr/local/opt/nvm/nvm.sh"
-# [ -s "/usr/local/opt/nvm/etc/bash_completion.d/nvm" ] && \. "/usr/local/opt/nvm/etc/bash_completion.d/nvm"
+# Node version manager: fnm (fast Rust replacement for nvm)
+# Reads .nvmrc/.node-version; --use-on-cd auto-switches node on directory change
+if (( $+commands[fnm] )); then
+  eval "$(fnm env --use-on-cd)"
+fi
 
 # Alternative aliases
 # alias eza='eza -lah --git'
